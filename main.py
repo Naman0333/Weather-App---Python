@@ -21,7 +21,7 @@ def time_format_for_location(utc_with_tz):
 
 def showWeather():
     # Entry Api key, copies from the OpenWeatherApp dashboard
-    api_key = 'a318be496131de4ea787b6f2c38e4d22'
+    api_key = 'YOUR_API_KEY'
 
     # Get city name from user from the input field 
     city_name = city_value.get()
